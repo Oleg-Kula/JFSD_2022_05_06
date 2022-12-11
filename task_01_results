@@ -1,0 +1,36 @@
+number of files: 10
+total size: 8.01 Mb
+number of tries per one option: 5
+units: ms
+----------------------------------
+option 1: no parallel reading(from previous task)
+1: 729
+2: 787
+3: 692
+4: 702
+5: 702
+average: 722.4
+
+option 2: reading in 2 threads
+1: 687
+2: 695
+3: 664
+4: 680
+5: 664
+average: 678.0
+
+option 3: reading in 4 threads
+1: 670
+2: 639
+3: 662
+4: 679
+5: 640
+average: 658.0
+
+option 4: reading in 8 threads
+1: 617
+2: 683
+3: 633
+4: 601
+5: 630
+average: 632.8
